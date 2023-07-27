@@ -273,7 +273,8 @@ main {
 }
 
 .attribution {
-  padding-top: 5rem;
+  bottom: 0;
+  position: fixed;
   font-size: 16px;
   text-align: center;
 }
