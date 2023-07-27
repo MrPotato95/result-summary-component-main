@@ -50,13 +50,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   font-family: $ff-hanken-grotesk;
   font-size: 18px;
 }
 
 main {
-  height: 100vh;
+  padding-top: 20px;
 }
 
 main {
@@ -223,7 +223,7 @@ main {
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   main {
     display: flex;
     justify-content: center;
@@ -273,7 +273,10 @@ main {
 }
 
 .attribution {
-  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   position: fixed;
   font-size: 16px;
   text-align: center;
