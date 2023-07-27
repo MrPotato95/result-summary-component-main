@@ -51,6 +51,7 @@ body {
 
 main {
   height: 100vh;
+  padding-top: 20px;
 }
 
 main .left {
@@ -184,18 +185,19 @@ main .right button {
   margin-bottom: 10px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   main {
     display: flex;
     justify-content: center;
     align-content: center;
     height: auto;
-    width: 736px;
+    width: 600px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 4px 15px lightgrey;
+    padding: 0;
   }
   main .left {
-    border-radius: 15px;
+    border-radius: 25px;
     width: 50%;
     height: 100%;
     overflow: hidden;
@@ -210,7 +212,7 @@ main .right button {
     font-size: 3rem;
   }
   main .results-stats p {
-    margin: 0px 40px 0px 40px;
+    margin: 0px 10px 0px 10px;
   }
   main .right {
     width: 55%;
@@ -221,14 +223,4 @@ main .right button {
     cursor: pointer;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   }
-}
-.attribution {
-  padding-top: 5rem;
-  font-size: 16px;
-  text-align: center;
-}
-
-.attribution a {
-  text-decoration: none;
-  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */
